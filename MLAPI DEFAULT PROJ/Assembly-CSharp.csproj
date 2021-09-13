@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Players\MP_Movement.cs" />
+     <Compile Include="Assets\HomeBrew Multiplayer\HB_NetworkManager.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -612,6 +613,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.Multiplayer.MLAPI.Prototyping.csproj">
+      <Project>{7840dc43-47ea-d82b-3efb-c4d5ca34f65b}</Project>
+      <Name>Unity.Multiplayer.MLAPI.Prototyping</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{9af3c1f8-3faa-b38b-86b5-5f6650ca47c5}</Project>
       <Name>Unity.VSCode.Editor</Name>
@@ -644,17 +649,13 @@
       <Project>{458a6472-a229-c77e-a951-2a729e215d56}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{0efb04a0-9bf7-656e-d06c-cf08255493ea}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Multiplayer.MLAPI.Prototyping.csproj">
-      <Project>{7840dc43-47ea-d82b-3efb-c4d5ca34f65b}</Project>
-      <Name>Unity.Multiplayer.MLAPI.Prototyping</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.Multiplayer.MLAPI.Runtime.csproj">
       <Project>{026adb7b-98c2-0c51-3d79-7642f1ae52f0}</Project>
       <Name>Unity.Multiplayer.MLAPI.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{0efb04a0-9bf7-656e-d06c-cf08255493ea}</Project>
+      <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="ParrelSync.csproj">
       <Project>{3354f983-58d4-6a37-b9c5-50beb5730b14}</Project>
