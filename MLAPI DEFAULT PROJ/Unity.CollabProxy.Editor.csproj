@@ -62,8 +62,8 @@
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\Api\ISourceControlProvider.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\IHistoryModel.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\IChangesModel.cs" />
-     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Presenters\IHistoryPresenter.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Utilities\OpenLinksUtility.cs" />
+     <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Presenters\IHistoryPresenter.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Views\Adapters\ListAdapters\ConflictedChangeListAdapter.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Components\Menus\FloatingMenu.cs" />
      <Compile Include="Library\PackageCache\com.unity.collab-proxy@1.3.9\Editor\Models\ChangesModel.cs" />
@@ -399,6 +399,12 @@
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>D:/Unity Projects D/MLAPI Default Proj/Lily_IT4080C/MLAPI DEFAULT PROJ/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+        <HintPath>D:/Unity Projects D/MLAPI Default Proj/Lily_IT4080C/MLAPI DEFAULT PROJ/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1-preview.1/Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+        <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

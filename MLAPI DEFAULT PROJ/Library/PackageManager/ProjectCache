@@ -6,8 +6,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637657864339392685
-    m_Hash: 2905704912
+      ticks: 637670767198291138
+    m_Hash: 2409588195
   m_LockFileStatus:
     m_FilePath: D:/Unity Projects D/MLAPI Default Proj/Lily_IT4080C/MLAPI DEFAULT
       PROJ/Packages/packages-lock.json
@@ -15,8 +15,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637657864345605145
-    m_Hash: 2602105422
+      ticks: 637670767204163377
+    m_Hash: 542272880
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -348,6 +348,7 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
+        - 1.2.4
         compatible:
         - 1.0.2
         - 1.0.3
@@ -360,7 +361,8 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
-        verified: 1.2.3
+        - 1.2.4
+        verified: 1.2.4
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -384,78 +386,65 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
-    - packageId: com.unity.multiplayer-hlapi@1.1.1
+    - packageId: com.unity.multiplayer.mlapi@https://github.com/Unity-Technologies/com.unity.multiplayer.mlapi.git?path=/com.unity.multiplayer.mlapi#release/0.1.0
       testable: 0
       isDirectDependency: 1
-      version: 1.1.1
-      source: 1
+      version: 0.1.0
+      source: 5
       resolvedPath: D:\Unity Projects D\MLAPI Default Proj\Lily_IT4080C\MLAPI DEFAULT
-        PROJ\Library\PackageCache\com.unity.multiplayer-hlapi@1.1.1
-      assetPath: Packages/com.unity.multiplayer-hlapi
-      name: com.unity.multiplayer-hlapi
-      displayName: Multiplayer HLAPI
+        PROJ\Library\PackageCache\com.unity.multiplayer.mlapi@3e3aef6aa0
+      assetPath: Packages/com.unity.multiplayer.mlapi
+      name: com.unity.multiplayer.mlapi
+      displayName: MLAPI Networking Library
       author:
         name: 
         email: 
         url: 
       category: 
-      type: 
-      description: The high level API component of the Unity Multiplayer system.
+      type: library
+      description: This the Core Unity Mid-level API that provides core SDK for multiplayer
+        games within unity
       status: 4
       errors: []
       versions:
-        all:
-        - 0.2.4-preview
-        - 0.2.5-preview
-        - 1.0.0
-        - 1.0.1
-        - 1.0.2
-        - 1.0.4
-        - 1.0.6
-        - 1.0.8
-        - 1.1.1
-        compatible:
-        - 0.2.4-preview
-        - 0.2.5-preview
-        - 1.0.0
-        - 1.0.1
-        - 1.0.2
-        - 1.0.4
-        - 1.0.6
-        - 1.0.8
-        - 1.1.1
+        all: []
+        compatible: []
         verified: 
       dependencies:
+      - name: com.unity.modules.ai
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
       - name: com.unity.nuget.mono-cecil
-        version: 1.10.1
+        version: 1.10.1-preview.1
       resolvedDependencies:
+      - name: com.unity.modules.ai
+        version: 1.0.0
+      - name: com.unity.modules.animation
+        version: 1.0.0
       - name: com.unity.nuget.mono-cecil
-        version: 1.10.1
+        version: 1.10.1-preview.1
       keywords:
-      - multiplayer
-      - networking
-      - hlapi
-      - high-level
-      - api
+      - unity
       registry:
-        id: main
+        id: 
         name: 
-        url: https://packages.unity.com
+        url: 
         scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637560226460000000
+      datePublishedTicks: 0
       documentationUrl: 
-      hasRepository: 1
+      hasRepository: 0
       repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.multiplayer-hlapi.git
-        revision: bab548572ce9bd49e42fa76ed4edd1972be375c9
+        type: 
+        url: 
+        revision: 
         path: 
     - packageId: com.unity.test-framework@1.1.19
       testable: 0
@@ -953,6 +942,58 @@ m_PackageAssets:
       - ugui
       - Unity UI
       - Canvas
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.veriorpies.parrelsync@https://github.com/VeriorPies/ParrelSync.git?path=/ParrelSync
+      testable: 0
+      isDirectDependency: 1
+      version: 1.5.0
+      source: 5
+      resolvedPath: D:\Unity Projects D\MLAPI Default Proj\Lily_IT4080C\MLAPI DEFAULT
+        PROJ\Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4
+      assetPath: Packages/com.veriorpies.parrelsync
+      name: com.veriorpies.parrelsync
+      displayName: ParrelSync
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: ParrelSync is a Unity editor extension that allows users to test
+        multiplayer gameplay without building the project by having another Unity
+        editor window opened and mirror the changes from the original project.
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - Networking
+      - Utils
+      - Editor
+      - Extensions
       registry:
         id: 
         name: 
@@ -2777,13 +2818,13 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 1b3e542964a65210e966f5bf8751f62b1dcd8d69
         path: 
-    - packageId: com.unity.nuget.mono-cecil@1.10.1
+    - packageId: com.unity.nuget.mono-cecil@1.10.1-preview.1
       testable: 0
       isDirectDependency: 0
-      version: 1.10.1
+      version: 1.10.1-preview.1
       source: 1
       resolvedPath: D:\Unity Projects D\MLAPI Default Proj\Lily_IT4080C\MLAPI DEFAULT
-        PROJ\Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1
+        PROJ\Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1-preview.1
       assetPath: Packages/com.unity.nuget.mono-cecil
       name: com.unity.nuget.mono-cecil
       displayName: Mono Cecil
@@ -2833,13 +2874,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637437477070000000
+      datePublishedTicks: 637414275090000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.mono-cecil.git
-        revision: c1b254abc76d079830441168142797a454b48735
+        revision: a3a6bd3697f92f6872f64c08a98ef2331394cd16
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []

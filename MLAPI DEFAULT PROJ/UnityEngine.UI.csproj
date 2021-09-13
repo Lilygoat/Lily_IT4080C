@@ -112,10 +112,10 @@
      <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\LayoutGroup.cs" />
      <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Scrollbar.cs" />
      <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\FontUpdateTracker.cs" />
-     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\ToggleGroup.cs" />
      <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\RaycastResult.cs" />
      <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Button.cs" />
      <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\BaseInputModule.cs" />
+     <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\ToggleGroup.cs" />
      <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\GridLayoutGroup.cs" />
      <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\PointerInputModule.cs" />
      <Compile Include="C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\TouchInputModule.cs" />
@@ -355,6 +355,12 @@
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>D:/Unity Projects D/MLAPI Default Proj/Lily_IT4080C/MLAPI DEFAULT PROJ/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+        <HintPath>D:/Unity Projects D/MLAPI Default Proj/Lily_IT4080C/MLAPI DEFAULT PROJ/Library/PackageCache/com.unity.nuget.mono-cecil@1.10.1-preview.1/Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+        <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
